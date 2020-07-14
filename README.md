@@ -33,8 +33,11 @@ insert link to demo
 
 [Express.js](https://expressjs.com/)
 
+[Moment.js](https://www.npmjs.com/package/moment)
 
+[Mongoose](https://www.npmjs.com/package/mongoose)
 
+[MongoDB](https://www.mongodb.com/)
 
 # :memo: Instructions
 

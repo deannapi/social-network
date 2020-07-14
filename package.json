@@ -1,0 +1,28 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+  "main": "server.js",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deannapi/social-network.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose"
+  ],
+  "author": "DeAnna Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deannapi/social-network/issues"
+  },
+  "homepage": "https://github.com/deannapi/social-network#readme"
+}
