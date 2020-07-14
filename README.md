@@ -22,12 +22,15 @@ An API for a social network web application where users can share their thoughts
     THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 # :movie_camera: Demo
-<!-- insert demo video here -->
-<!-- insert link to demo -->
+insert demo video here
+
+insert link to demo
 
 # :hammer: Tools
 [Insomnia](https://insomnia.rest/)
+
 [Node.js](https://nodejs.org/en/)
+
 [Express.js](https://expressjs.com/)
 
 
