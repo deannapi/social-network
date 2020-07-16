@@ -47,16 +47,6 @@ const userController = {
             .catch((err) => res.status(400).json(err));
     },
 
-    // CREATE Second User
-    createSecondUser({ body }, res) {
-
-    },
-
-    // CREATE Third User
-    createThirdUser({ body }, res) {
-
-    },
-
     // UPDATE User
     updateUser({ params, body }, res) {
         User.findOneAndUpdate({ _id: params.id }, body, { new: true, runValidators: true})

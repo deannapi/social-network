@@ -34,11 +34,13 @@ const ThoughtSchema = new Schema(
         thoughtText: {
             type: String,
             required: true,
-            validate:({
-                validator: 'isLength',
-                arguments: [1, 280], 
-                message: 'Comments should be less than 280 characters.'
-            }),
+            minlength: 1,
+            maxlength: 280
+            // validate:({
+            //     validator: 'isLength',
+            //     arguments: [1, 280], 
+            //     message: 'Comments should be less than 280 characters.'
+            // }),
         },
         createdAt: {
             type: Date,
@@ -66,5 +68,5 @@ ThoughtSchema.virtual('reactionCount').get(function() {
 
 const Thought = model('Thought', ThoughtSchema);
 
-module.exports = { Thought, Reaction };
+module.exports = { Thought };
 
