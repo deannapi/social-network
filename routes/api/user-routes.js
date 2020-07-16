@@ -14,7 +14,9 @@ const {
 router
     .route('/')
     .get(getAllUsers)
-    .post(createUser);
+    .post(createUser)
+    .post(addFriend)
+    .delete(deleteFriend);
 
 // GET a user by ID at /api/users/:id
 router
