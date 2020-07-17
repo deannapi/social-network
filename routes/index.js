@@ -2,8 +2,8 @@ const router = require('express').Router();
 
 // Import all of the API routes from /api/index.js
 const apiRoutes = require('./api');
-const { route } = require('./api');
-const { model } = require('../models/User');
+// const { route } = require('./api');
+// const { model } = require('../models/User');
 
 // add prefix of `/api` to all of the API routes imported from the 'api' directory
 router.use('/api', apiRoutes);

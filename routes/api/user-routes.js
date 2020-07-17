@@ -14,9 +14,7 @@ const {
 router
     .route('/')
     .get(getAllUsers)
-    .post(createUser)
-    .post(addFriend)
-    .delete(deleteFriend);
+    .post(createUser);
 
 // GET a user by ID at /api/users/:id
 router
@@ -25,6 +23,10 @@ router
     .put(updateUser)
     .delete(deleteUser);
 
-// POST a new user
+// Friends /api/users/:userId/friends/:friendId
+router
+    .route('/:userId/friends/:friendId')
+    .post(addFriend)
+    .delete(deleteFriend);
 
 module.exports = router;
