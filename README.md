@@ -22,7 +22,11 @@ An API for a social network web application where users can share their thoughts
     THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 # :movie_camera: Demo
-insert demo video here
+![](Users and Thoughts.gif)
+
+![Watch the Users and Thoughts](Users and Thoughts WalkThrough.webm)
+
+[Watch the Reactions and Friends]()
 
 insert link to demo
 

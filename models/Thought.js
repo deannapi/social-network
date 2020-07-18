@@ -36,11 +36,6 @@ const ThoughtSchema = new Schema(
             required: true,
             minlength: 1,
             maxlength: 280
-            // validate:({
-            //     validator: 'isLength',
-            //     arguments: [1, 280], 
-            //     message: 'Comments should be less than 280 characters.'
-            // }),
         },
         createdAt: {
             type: Date,
