@@ -22,13 +22,13 @@ An API for a social network web application where users can share their thoughts
     THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 # :movie_camera: Demo
-![](Users and Thoughts.gif)
+![](Users-Thoughts.gif)
 
-![Watch the Users and Thoughts](Users and Thoughts WalkThrough.webm)
+[Watch the Users and Thoughts](Users-Thoughts-WalkThrough.webm)
 
-[Watch the Reactions and Friends]()
+![](Reactions-Friends.gif)
 
-insert link to demo
+[Watch the Reactions and Friends](Reactions-Friends-WalkThrough.mp4)
 
 # :hammer: Tools
 [Insomnia](https://insomnia.rest/)
@@ -47,7 +47,7 @@ insert link to demo
 
 To run the application, use the following command:
 
-    node index.js
+    node server.js
 
 # Credits
 [GitHub: deannapi](https://github.com/deannapi)
